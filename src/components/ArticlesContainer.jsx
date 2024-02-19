@@ -6,7 +6,7 @@ import Article from './Article'
 
 const ArticlesContainer = () => {
   return (
-    <section className='mt-6 sm:flex'>
+    <section className='mt-6 lg:flex'>
         <Article img={ img1 } number="01" title="Reviving Retro PCs" text="What happens when old PCs are given modern upgrades?"/>
         <Article img={ img2 } number="02" title="Top 10 Laptops of 2022" text="Our best picks for various needs and budgets."/>
         <Article img={ img3 } number="03" title="The Growth of Gaming" text="How the pandemic has sparked fresh opportunities."/>
